@@ -9,3 +9,5 @@ array.each do |sentence|
 end
 new_array.join(" ")
 end
+
+def reverse_each_word_with_collect(sentence)
