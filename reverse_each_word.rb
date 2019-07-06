@@ -11,3 +11,9 @@ new_array.join(" ")
 end
 
 def reverse_each_word_with_collect(sentence)
+array = sentence.split(" ")
+array.collect do |sentence|
+  sentence.reverse
+end
+array.join(" ")
+end
