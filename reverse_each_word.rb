@@ -1,7 +1,12 @@
 sentence1 = "Hello there, and how are you?"
 
-def reverse_each_word(sentence1)
+def reverse_each_word(sentence)
 
-reverse_each_word.split(' ')
+array = sentence.split(' ')
+new_array = []
 
+array.each do |sentence|
+  new_array << string.reverse
+end
+new_array.join(" ")
 end
